@@ -1,0 +1,22 @@
+[
+  {
+    "test": "Repeated prefetch shares the current warm task",
+    "pass": true
+  },
+  {
+    "test": "Speculative prefetch is bounded to eight tasks",
+    "pass": true
+  },
+  {
+    "test": "Warm-task slots are released after completion",
+    "pass": true
+  },
+  {
+    "test": "Cached URLs need no additional warm thread",
+    "pass": true
+  },
+  {
+    "test": "Low disk space rejects audio downloads with a useful message",
+    "pass": true
+  }
+]

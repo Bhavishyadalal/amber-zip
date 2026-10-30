@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "test": "Original UI styles preserved",
+      "pass": true
+    },
+    {
+      "test": "Original native window dimensions preserved",
+      "pass": true
+    }
+  ],
+  "dimensions": {
+    "width": 1180,
+    "height": 760,
+    "min_size": [
+      360,
+      600
+    ],
+    "background_color": "#121315"
+  }
+}

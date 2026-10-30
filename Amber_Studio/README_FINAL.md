@@ -1,0 +1,123 @@
+# Control website update — Amber and Amber Studio
+
+The old saved-code attempt can no longer lock the Connect button. Editing the
+code cancels the old attempt and its timers immediately. While connecting,
+the button stays enabled as Cancel. Missing PCs, stalled connections and
+approval waits have finite timeouts and leave the code editable.
+
+Reconnecting when reopening the page is OFF by default. Check "Reconnect to
+this code when I reopen" to opt in. Saved approval for each code is retained;
+switching codes does not send the old PC's token to an unrelated PC. During
+an active session, network recovery and returning from browser history resync
+the PC. The connected PC's app name and code are shown. Change PC / code,
+Disconnect, Forget this PC code and Refresh from PC are in the menu.
+
+New and completed controls:
+
+- Filter Queue, Liked and Recent while preserving the correct source indices.
+- Queue options: play next, move up, move down, and remove the intended ID.
+- Clear queue with confirmation; reject it if the PC queue changed meanwhile.
+- Add a playlist/search list to the queue as one bounded, deduplicated action.
+- Display the whole supported queue (up to 300), with no hidden extra tracks.
+- Request a current-song download on the PC and show its reported status.
+- Toggle related-song autoplay and copy the current YouTube song link.
+- Retry failed searches; clearing/switching sessions discards late results.
+- Command acknowledgements, duplicate suppression and useful rejection messages.
+- No automatic replay of unconfirmed commands after reconnecting.
+- Idempotent lock-screen Play/Pause commands and offline command guards.
+- Cancel pending PC approval cleanly; discard stale desktop pairing callbacks.
+- Separate Amber Studio phone preferences/search history from Classic.
+
+Use the update:
+
+1. Rebuild/install each desktop app from its own 01_Amber_Desktop_App folder.
+   These ZIPs contain source/build files; an old EXE is not updated by replacing
+   its Python source. The new remote capabilities require the rebuilt desktop.
+2. Replace/deploy 02_Website_Control/index.html on your control website host.
+   No website was published by this ZIP update. Existing hosted pages stay old
+   until you redeploy them. For separate hosts, use the matching Classic or
+   Studio controller; either accepts a valid PC code and shows the PC identity.
+3. Close the old phone page and reopen/reload the deployed page. Enter the PC's
+   current code. Press Allow on the PC when asked. Reconnect-on-reopen is optional.
+
+The paired phone controls the PC; downloads save on the PC, not on the phone.
+VB-Cable, microphone permission and OS hold-key selection remain PC setup steps.
+The existing app UIs and distinct installer/data identities are preserved.
+Voice clean-up still defaults OFF and retains explicit later choices.
+No screenshots are included. Control and showcase sites remain separate:
+the showcase uses its existing offline sample demo, not live pairing.
+
+Validation: remote-test-results.json contains this update's host/client tests.
+They run production client and desktop JavaScript in separate browser pages,
+with a deterministic PeerJS transport and sample API responses. Desktop playback
+and UI regression suites were also rerun. Real mobile browsers, Windows builds,
+WebRTC/TURN across physical networks and live downloads still need PC/phone
+testing. Earlier verification reports remain historical records of prior fixes.
+
+
+---
+
+Earlier app release and coexistence instructions:
+
+# Amber and Amber Studio — two independent apps
+
+Amber keeps the classic UI. Amber Studio is the redesigned UI with a distinct
+Windows installer identity, EXE, taskbar identity, shortcuts, default port,
+browser profile and app data. Extract these packages into separate folders.
+
+Build BOTH installers with each package's `01_Amber_Desktop_App/build_exe.bat`:
+
+- Classic: `AmberSetup.exe` installs `Amber.exe` in `%LOCALAPPDATA%/Programs/Amber`.
+- Studio: `AmberStudioSetup.exe` installs `AmberStudio.exe` in `%LOCALAPPDATA%/Programs/AmberStudio`.
+
+Install both using their own default folders. Opening an already running copy
+of the same app focuses its existing window on Windows. The other app can run
+alongside it. Both still use the same physical VB-Cable driver if you select it;
+use one virtual-mic route at a time when you do not want both apps mixed together.
+
+Classic retains its established settings/downloads next to its app. Installed
+Studio uses `%LOCALAPPDATA%/AmberStudio`; running Studio from Python uses
+`studio_data` next to `amber_studio.py`. Its data is independent of Classic.
+The new Studio install starts with its own data; it does not silently copy or
+erase data from the old overlapping Amber installation. If the old redesigned
+build occupied the Amber slot, rebuild/reinstall Classic there and install
+the new Studio installer separately. Keep a backup of old settings before
+reinstalling; user files are not removed by these installer scripts.
+
+Studio default global hotkeys use Ctrl+Alt+Shift instead of Classic's Ctrl+Alt.
+You can customize them in Mic, but do not give both running apps the same key.
+Default ports: Classic 8877; Studio 8878. Explicit overrides: AMBER_PORT and
+AMBER_STUDIO_PORT respectively. Studio's storage override is AMBER_STUDIO_FILES_DIR.
+
+New behaviour in both apps:
+
+- Restore the selected track, position, repeat/shuffle and last tab, paused.
+- Recover unsaved queue/likes/history and microphone preferences on reopen.
+- Save a close-time checkpoint; reject older writes arriving out of order.
+- Recover the previous valid JSON backup if a state file is corrupted.
+- Retry a broken stream at the saved position, with a bounded retry count.
+- Cancel stale retries/lookups and related results after pause/queue changes.
+- Correct Play/Pause media-key semantics, including seek forward/backward.
+- Keep a paused queue paused when removing its selected song.
+- Cancel a pending virtual-mic startup safely, including rapid restart.
+- Stop an unplugged output even when another cable is auto-detected.
+- Reject invalid state data and unsafe/malformed soundboard records.
+- Serialize sound edits/settings writes; report failed file deletion correctly.
+- Bound and deduplicate speculative prefetch to reduce background work.
+- Protect the regular audio download against very low disk space.
+- Use fast startup identity checks and release the held game key on shutdown.
+
+Voice clean-up still defaults OFF; explicit user choices are retained. Existing
+UI layouts/styles are preserved. The control/showcase websites, vendor scripts,
+icons, requirements and build files remain included. No screenshots are included.
+
+These are source/build packages, not new compiled Windows installers. Replacing
+a Python file does not update an already-built EXE. Rebuild to apply the changes.
+
+Validation results are in each app's `verification/`. Tests exercise production
+functions with isolated request fixtures, browser UI logic with sample responses
+and mock audio, and independent local identity endpoints. Actual Windows Inno
+Setup/PyInstaller builds, WebView2, OS hotkeys, live YouTube/FFmpeg and real
+VB-Cable/phone pairing require testing on your PC. This update repairs the
+identified/tested issues and adds the documented logic; it is not a claim that
+every possible future bug or feature is covered.

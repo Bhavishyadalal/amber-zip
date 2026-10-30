@@ -1,0 +1,50 @@
+{
+  "browser": "Chromium",
+  "rendering": "Local file; standalone offline demos",
+  "checks": [
+    {
+      "width": 390,
+      "errors": [],
+      "externalRequests": [],
+      "dom": {
+        "overflow": false,
+        "headers": 1,
+        "footers": 1,
+        "brokenImages": 0,
+        "main": 7,
+        "unwantedFrames": 2
+      },
+      "checks": "menu, tour jump, player queue, gallery keyboard, remote playback, voice switch, pad, FAQ, reduced motion"
+    },
+    {
+      "width": 1440,
+      "errors": [],
+      "externalRequests": [],
+      "dom": {
+        "overflow": false,
+        "headers": 1,
+        "footers": 1,
+        "brokenImages": 0,
+        "main": 7,
+        "unwantedFrames": 2
+      },
+      "checks": "menu, tour jump, player queue, gallery keyboard, remote playback, voice switch, pad, FAQ, reduced motion"
+    },
+    {
+      "widths": [
+        320,
+        768,
+        1024,
+        1100,
+        1101,
+        1280
+      ],
+      "check": "final gallery and navigation layout fit"
+    }
+  ],
+  "additionalVerification": "Repaired install section closure; 12 direct main content areas confirmed in browser DOM.",
+  "finalStructureCheck": {
+    "directMainAreas": 12,
+    "installSectionClosed": true
+  }
+}

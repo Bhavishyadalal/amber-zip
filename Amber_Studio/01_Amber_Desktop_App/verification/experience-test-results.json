@@ -1,0 +1,65 @@
+{
+  "checks": [
+    {
+      "test": "Session restores selected track, repeat, shuffle and tab while paused",
+      "pass": true
+    },
+    {
+      "test": "Restored position is visible before pressing Play",
+      "pass": true
+    },
+    {
+      "test": "Restored playback begins from its saved position",
+      "pass": true
+    },
+    {
+      "test": "Repeated media-session Pause never resumes playback",
+      "pass": true
+    },
+    {
+      "test": "Repeated media-session Play never pauses playback",
+      "pass": true
+    },
+    {
+      "test": "Closing and reopening restores the last position without autoplay",
+      "pass": true
+    },
+    {
+      "test": "Stream recovery retains playback position",
+      "pass": true
+    },
+    {
+      "test": "Pausing cancels delayed playback recovery",
+      "pass": true
+    },
+    {
+      "test": "Clearing the queue cancels delayed recovery",
+      "pass": true
+    },
+    {
+      "test": "Late stream lookup cannot restart a cleared queue",
+      "pass": true
+    },
+    {
+      "test": "Late autoplay results cannot repopulate a cleared queue",
+      "pass": true
+    },
+    {
+      "test": "An unsaved queue edit survives reload in the local journal",
+      "pass": true
+    },
+    {
+      "test": "Journal changes are saved after reconnecting",
+      "pass": true
+    },
+    {
+      "test": "Failed library load cannot overwrite saved data on exit",
+      "pass": true
+    },
+    {
+      "test": "Recovery stops after three unsuccessful attempts",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

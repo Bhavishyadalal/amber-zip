@@ -1,0 +1,30 @@
+EARLIER RELEASE NOTES — read UX_AND_COEXISTENCE_UPDATE.txt for the current release.
+
+AMBER — MICROPHONE DEFAULT / COMPACT PACKAGE UPDATE
+
+Noise suppression and echo cancellation (Voice clean-up) start OFF.
+This release resets the previous automatic ON default once. Turn Voice clean-up
+on manually if you want it; your explicit choice is retained across mic restarts
+and subsequent app launches. Turning the virtual mic on does not force it on.
+
+Fixed: stale microphone permission results after changing cleanup or stopping
+the virtual mic; late request failures affecting a newer stream; overlapping
+microphone-settings saves; failed saves now retry and report persistent failure.
+Soundboard requests have a timeout and reject failed HTTP/API responses.
+Soundboard state updates validate JSON and serialize read/modify/write edits.
+The redesigned branch also receives the tested cache-range, download-worker,
+library-persistence and config-transaction repairs already in the classic branch.
+
+Each branch retains its own UI styles, layout and native window configuration.
+All screenshot folders/images are removed. Embedded showcase screenshot bytes
+are replaced with a small text notice. App icons and vendor files remain.
+The desktop app, control website, showcase, build scripts and documentation remain.
+
+Validation: 36 targeted checks passed for this branch, plus Python and embedded
+JavaScript syntax, original styles/markup/window comparison (except cleanup switch
+state), ZIP integrity and every packaged checksum. Browser microphone tests use
+mock audio devices/streams; actual Windows WebView2 and VB-Cable routing, global
+hotkeys, live downloads and real phone pairing need testing on your PC.
+
+Existing EXE users: rebuild using 01_Amber_Desktop_App/build_exe.bat.
+The source update does not change an already-built EXE.

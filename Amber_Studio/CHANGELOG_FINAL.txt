@@ -1,0 +1,15 @@
+AMBER FINAL ARCHIVE — PACKAGING CHANGELOG
+
+- Preserved the supplied Amber Studio desktop source/build project.
+- Separated the desktop application into 01_Amber_Desktop_App.
+- Separated the actual live Website Control source into 02_Website_Control.
+- Added the final showcase as 03_Showcase_Website/index.html.
+- Embedded the pairing-free Website Control demo directly into the showcase HTML.
+- Removed the showcase's dependency on a separate local amber-remote-demo.html file.
+- Added folder-level README documentation.
+- Added final project documentation and archive README.
+- Added desktop/phone visual QA screenshots from the final showcase.
+- Added SHA-256 integrity manifest.
+
+SHOWCASE POLISH REVISION (2026-10-09)
+Visual, navigation, mobile, embedded-demo and performance repairs. Fresh seven-area gallery and website captures. See 04_Documentation/SHOWCASE_CHANGELOG.md.

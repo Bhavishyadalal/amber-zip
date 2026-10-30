@@ -1,0 +1,14 @@
+{
+  "passed": [
+    "Cache replaces partial ranges with a full response",
+    "Cache rejects mismatched Content-Range",
+    "Cancelled final chunk never commits to cache",
+    "Cache skip-back restarts cancelled work and deduplicates queue",
+    "Resume waits until the old worker releases partial files",
+    "Cancel does not delete files owned by a running worker",
+    "Late cancellation cleans partial files after the worker exits",
+    "Concurrent preference saves preserve independent settings",
+    "Home shelf cache coalesces requests, isolates data and expires",
+    "Home fetches all four shelves concurrently and preserves their order"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "checks": [
+    {
+      "test": "Home fetched once across revisits",
+      "pass": true
+    },
+    {
+      "test": "Cleared search stays cleared",
+      "pass": true
+    },
+    {
+      "test": "Network failure restores update button",
+      "pass": true
+    },
+    {
+      "test": "HTTP failure restores Refresh and reports failure",
+      "pass": true
+    },
+    {
+      "test": "Empty playlist renders feedback",
+      "pass": true
+    },
+    {
+      "test": "Sound editor keyboard focus stays inside",
+      "pass": true
+    },
+    {
+      "test": "Failed deletion preserves open editor and reports failure",
+      "pass": true
+    },
+    {
+      "test": "Escape closes editor",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "visualPairs": []
+}

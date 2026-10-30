@@ -1,0 +1,102 @@
+[
+  {
+    "test": "Corrupt JSON recovers the previous valid backup",
+    "pass": true
+  },
+  {
+    "test": "Corrupt primary cannot overwrite a valid backup",
+    "pass": true
+  },
+  {
+    "test": "Invalid JSON shape is rejected",
+    "pass": true
+  },
+  {
+    "test": "Malformed track-list shape is rejected",
+    "pass": true
+  },
+  {
+    "test": "Track state is validated and deduplicated",
+    "pass": true
+  },
+  {
+    "test": "Invalid session values cannot break startup",
+    "pass": true
+  },
+  {
+    "test": "Out-of-order writes cannot replace newer state",
+    "pass": true
+  },
+  {
+    "test": "Revision must be a safe integer",
+    "pass": true
+  },
+  {
+    "test": "A different localhost app cannot issue commands",
+    "pass": true
+  },
+  {
+    "test": "Same-origin localhost command is accepted",
+    "pass": true
+  },
+  {
+    "test": "Independent library edits are serialized without losing either list",
+    "pass": true
+  },
+  {
+    "test": "Malformed sound metadata falls back to usable values",
+    "pass": true
+  },
+  {
+    "test": "Noise cleanup stays off until explicitly configured",
+    "pass": true
+  },
+  {
+    "test": "Explicit cleanup preference is retained",
+    "pass": true
+  },
+  {
+    "test": "Older microphone saves cannot overwrite a newer toggle choice",
+    "pass": true
+  },
+  {
+    "test": "Malformed microphone revision is ignored safely",
+    "pass": true
+  },
+  {
+    "test": "External soundboard paths are rejected",
+    "pass": true
+  },
+  {
+    "test": "Missing sound deletion reports 404",
+    "pass": true
+  },
+  {
+    "test": "Invalid port override uses the branch default",
+    "pass": true
+  },
+  {
+    "test": "Build entry point and executable names agree",
+    "pass": true
+  },
+  {
+    "test": "Installer uses the matching build folder",
+    "pass": true
+  },
+  {
+    "test": "Window title and taskbar ID use branch constants",
+    "pass": true
+  },
+  {
+    "test": "Both branch servers run concurrently and verify their own identity",
+    "pass": true
+  },
+  {
+    "test": "Startup refuses a different application server",
+    "pass": true
+  },
+  {
+    "test": "Both identities and all default hotkeys are distinct",
+    "pass": true
+  }
+]

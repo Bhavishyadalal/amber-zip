@@ -1,0 +1,169 @@
+{
+  "checks": [
+    {
+      "test": "Reopening with a legacy saved token does not auto-connect by default",
+      "pass": true
+    },
+    {
+      "test": "Connect stays usable on the saved-code screen",
+      "pass": true
+    },
+    {
+      "test": "An in-flight connection has an enabled Cancel button",
+      "pass": true
+    },
+    {
+      "test": "Changing a code cancels the old attempt and restores Connect",
+      "pass": true
+    },
+    {
+      "test": "Repeated Hello while waiting does not reject the pending phone",
+      "pass": true
+    },
+    {
+      "test": "Cancelling approval removes the pending PC dialog",
+      "pass": true
+    },
+    {
+      "test": "The latest code connects after cancelling a stale code",
+      "pass": true
+    },
+    {
+      "test": "PC version and pairing code are displayed",
+      "pass": true
+    },
+    {
+      "test": "Controls cannot run before Allow",
+      "pass": true
+    },
+    {
+      "test": "Remote download requests use the desktop download API",
+      "pass": true
+    },
+    {
+      "test": "PC download progress is visible on the phone",
+      "pass": true
+    },
+    {
+      "test": "Queue filtering keeps the original track index",
+      "pass": true
+    },
+    {
+      "test": "A filtered queue removal deletes the intended desktop track",
+      "pass": true
+    },
+    {
+      "test": "Moving a queue entry preserves the selected song",
+      "pass": true
+    },
+    {
+      "test": "Queue reordering is applied on the PC",
+      "pass": true
+    },
+    {
+      "test": "Duplicate command IDs do not toggle shuffle twice",
+      "pass": true
+    },
+    {
+      "test": "Repeated remote Pause stays paused",
+      "pass": true
+    },
+    {
+      "test": "A changed desktop queue is not cleared by an outdated confirmation",
+      "pass": true
+    },
+    {
+      "test": "PC command rejection is shown honestly on the phone",
+      "pass": true
+    },
+    {
+      "test": "Clear queue requires confirmation and clears the actual PC queue",
+      "pass": true
+    },
+    {
+      "test": "Bulk queue additions deduplicate tracks",
+      "pass": true
+    },
+    {
+      "test": "Bulk additions respect the desktop 300-track limit",
+      "pass": true
+    },
+    {
+      "test": "The remote shows all 300 supported queue entries",
+      "pass": true
+    },
+    {
+      "test": "Play next cannot overflow a full queue",
+      "pass": true
+    },
+    {
+      "test": "Phone searches run against the desktop search API",
+      "pass": true
+    },
+    {
+      "test": "Clearing search keeps late responses from reopening results",
+      "pass": true
+    },
+    {
+      "test": "Change PC returns to an editable, enabled code screen",
+      "pass": true
+    },
+    {
+      "test": "Saved access reconnects to the same PC without another Allow prompt",
+      "pass": true
+    },
+    {
+      "test": "Remote autoplay preference changes the real player setting",
+      "pass": true
+    },
+    {
+      "test": "Offline playback commands are not sent to the PC",
+      "pass": true
+    },
+    {
+      "test": "An active session recovers after internet returns",
+      "pass": true
+    },
+    {
+      "test": "Restoring a browser history page resumes its prior active session",
+      "pass": true
+    },
+    {
+      "test": "Opt-in reconnect reopens with the saved approved code",
+      "pass": true
+    },
+    {
+      "test": "Disconnect closes the desktop session",
+      "pass": true
+    },
+    {
+      "test": "Missing-code retries end with an enabled Connect button",
+      "pass": true
+    },
+    {
+      "test": "Failed pairing does not replace the code typed by the user",
+      "pass": true
+    },
+    {
+      "test": "A connection that never opens has a finite timeout",
+      "pass": true
+    },
+    {
+      "test": "Late welcomes from old attempts cannot replace a newly entered code",
+      "pass": true
+    },
+    {
+      "test": "Forget clears the current code and its approval token",
+      "pass": true
+    },
+    {
+      "test": "Mobile layout fits a 390-pixel screen",
+      "pass": true
+    },
+    {
+      "test": "No browser script errors during real host/client control flows",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

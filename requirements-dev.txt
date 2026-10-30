@@ -1,0 +1,2 @@
+-r Amber_Studio/01_Amber_Desktop_App/requirements.txt
+playwright

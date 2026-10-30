@@ -1,0 +1,65 @@
+{
+  "checks": [
+    {
+      "test": "Legacy automatic cleanup starts off",
+      "pass": true
+    },
+    {
+      "test": "First mic requests no noise suppression or echo cancellation",
+      "pass": true
+    },
+    {
+      "test": "User can enable cleanup during a pending mic request",
+      "pass": true
+    },
+    {
+      "test": "Late old stream stops and cannot replace the current stream",
+      "pass": true
+    },
+    {
+      "test": "Explicit enabled preference survives reload",
+      "pass": true
+    },
+    {
+      "test": "Explicit disabled preference survives reload",
+      "pass": true
+    },
+    {
+      "test": "Switching virtual mic off discards pending streams",
+      "pass": true
+    },
+    {
+      "test": "Stale request failure cannot mute the current microphone",
+      "pass": true
+    },
+    {
+      "test": "Mic settings writes are serialized and retain the latest choice",
+      "pass": true
+    },
+    {
+      "test": "Failed mic preference save retries",
+      "pass": true
+    },
+    {
+      "test": "Cancelling output startup cannot cancel a newer startup",
+      "pass": true
+    },
+    {
+      "test": "Only the current output startup becomes live",
+      "pass": true
+    },
+    {
+      "test": "Removing the active output stops routing even when another cable is detected",
+      "pass": true
+    },
+    {
+      "test": "Unsaved microphone choice survives reopen from its journal",
+      "pass": true
+    },
+    {
+      "test": "Recovered microphone choice is written after reconnecting",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

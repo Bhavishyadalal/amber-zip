@@ -1,0 +1,117 @@
+{
+  "checks": [
+    {
+      "test": "Default CABLE Output is never captured; a real microphone is requested explicitly",
+      "pass": true
+    },
+    {
+      "test": "Stable buffering and matching ideal sample rate; cleanup stays off by default",
+      "pass": true
+    },
+    {
+      "test": "Successful voice has mono bus, high-pass filter and post-compressor peak guard",
+      "pass": true
+    },
+    {
+      "test": "Voice off releases microphone without stopping music output",
+      "pass": true
+    },
+    {
+      "test": "Late microphone permission cannot replace a newer stream",
+      "pass": true
+    },
+    {
+      "test": "User-selected noise cancellation is respected",
+      "pass": true
+    },
+    {
+      "test": "Output switch closes old context and updates active output identity",
+      "pass": true
+    },
+    {
+      "test": "Unplugging the old output does not stop the newly selected output",
+      "pass": true
+    },
+    {
+      "test": "Disconnected microphone is reported truthfully; music remains live",
+      "pass": true
+    },
+    {
+      "test": "Returned virtual input is blocked before connection",
+      "pass": true
+    },
+    {
+      "test": "Missing selected microphone never retries through Windows default",
+      "pass": true
+    },
+    {
+      "test": "No physical microphone gives a clear error without opening loopback",
+      "pass": true
+    },
+    {
+      "test": "Turning virtual mic off clears output and microphone identities",
+      "pass": true
+    },
+    {
+      "test": "Virtual mic off during permission prompt discards the late stream",
+      "pass": true
+    },
+    {
+      "test": "Old permission denial cannot mute a newly connected microphone",
+      "pass": true
+    },
+    {
+      "test": "Removing the active output stops and releases the virtual mic safely",
+      "pass": true
+    },
+    {
+      "test": "No browser script errors",
+      "pass": true
+    },
+    {
+      "test": "Mixed voice/music/pads stay below full scale at 44.1 and 48 kHz",
+      "pass": true
+    },
+    {
+      "test": "Resampled mixed audio has no dropped/silent blocks",
+      "pass": true
+    },
+    {
+      "test": "Peak guard preserves quiet speech waveform",
+      "pass": true
+    },
+    {
+      "test": "Sound buffers coalesce requests, evict old cache entries, and retry failed downloads",
+      "pass": true
+    },
+    {
+      "test": "Background preload skips long sounds",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "waveform": {
+    "results": [
+      {
+        "rate": 44100,
+        "peak": 0.9670060873031616,
+        "rms": 0.5277021390053458,
+        "silentBlocks": 0
+      },
+      {
+        "rate": 48000,
+        "peak": 0.9644237160682678,
+        "rms": 0.5274623231133095,
+        "silentBlocks": 0
+      }
+    ],
+    "quietSignalError": 0.000003659431955946313
+  },
+  "cache": {
+    "coalesced": true,
+    "bounded": true,
+    "retried": true,
+    "skippedLong": true
+  },
+  "hardwareTested": false
+}

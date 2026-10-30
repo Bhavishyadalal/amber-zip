@@ -1,0 +1,12 @@
+[
+  {
+    "test": "Queue persistence serializes overlapping edits",
+    "pass": true,
+    "maximumConcurrentWrites": 1
+  },
+  {
+    "test": "Failed state save retries automatically",
+    "pass": true,
+    "attempts": 2
+  }
+]

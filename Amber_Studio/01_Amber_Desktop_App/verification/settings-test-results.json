@@ -1,0 +1,26 @@
+[
+  {
+    "test": "Fresh install defaults to cleanup off",
+    "pass": true
+  },
+  {
+    "test": "Legacy automatic cleanup migrates off",
+    "pass": true
+  },
+  {
+    "test": "Explicit True choice persists",
+    "pass": true
+  },
+  {
+    "test": "Explicit False choice persists",
+    "pass": true
+  },
+  {
+    "test": "Malformed settings body returns 400",
+    "pass": true
+  },
+  {
+    "test": "Concurrent independent soundboard edits survive",
+    "pass": true
+  }
+]

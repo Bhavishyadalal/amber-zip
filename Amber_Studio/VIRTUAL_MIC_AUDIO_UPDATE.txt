@@ -1,0 +1,35 @@
+Amber Studio virtual microphone audio update — 2026-10-10
+
+The redesigned UI and Classic program are preserved.
+
+Fixed and improved:
+- Voice capture explicitly selects a real input, never Windows default CABLE Output.
+- Missing microphones no longer silently fall back into the virtual audio loop.
+- Captured track identity is checked before connecting it to the mix.
+- Requests about 40 ms of output buffering and the context sample rate for capture.
+  Windows/browser decides the actual format and buffering.
+- Mono voice routing with a 60 Hz high-pass filter removes DC/low rumble.
+- Microphone connects/disconnects fade to reduce switching clicks.
+- Post-compressor peak protection bounds mixed voice/music/soundboard peaks.
+- Output changes rebuild the graph, cancel old starts and update device identity.
+- Unplug and pending permission events cannot overwrite a newer microphone session.
+- Capture tracks/listeners are released on shutdown; status reports unavailable voice.
+- Soundboard cache is capped at 64 MiB; background preload limited to eight short
+  sounds / about 60 seconds, with long sounds excluded from background decoding.
+- Soundboard visuals throttle in performance mode and stop updating when hidden.
+- Noise cancellation remains off by default; explicitly saved user choices are respected.
+
+Using the fix:
+Run the updated 01_Amber_Desktop_App/amber_studio.py if you use source.
+If you use the installed EXE, rebuild with build_exe.bat and install the newly built
+AmberStudioSetup.exe. An old EXE will not pick up edits to the Python source.
+Open Mic > Devices and check that My microphone names your physical microphone.
+Keep Send to game on CABLE Input; your game's microphone remains CABLE Output.
+
+Verification:
+22 browser/audio checks passed. Media-device lifecycle uses simulated devices;
+waveform checks use real Chromium OfflineAudioContext rendering at 44.1/48 kHz.
+No dropped silent blocks in those mixed-audio tests; quiet signals pass the peak
+protection without material waveform changes. See verification/virtual-mic-audio-results.json.
+Your Windows driver, physical microphone, WebView2 runtime and game cannot be
+listened to in this environment; this update does not claim hardware verification.

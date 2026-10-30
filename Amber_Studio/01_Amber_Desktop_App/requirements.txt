@@ -1,0 +1,8 @@
+flask
+yt-dlp
+yt-dlp-ejs
+pywebview
+requests
+imageio-ffmpeg
+pyinstaller
+mutagen

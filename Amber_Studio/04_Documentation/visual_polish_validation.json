@@ -1,0 +1,1844 @@
+{
+  "mode": "studio",
+  "errors": [],
+  "checks": {
+    "rangeSave": true,
+    "stopAvailable": true,
+    "defaultNoiseOff": true
+  },
+  "reports": [
+    {
+      "label": "1920x1080 home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1920x1080 player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1920x1080 browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1920x1080 library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1920x1080 download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1920x1080 mic mixer",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1920x1080 mic sounds",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1920x1080 mic devices",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1920x1080 mic keys",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1920x1080 mic remote",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1920x1080 mic setup",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1920x1080 mic live performance",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1920x1080 setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1280x720 home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1280x720 player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1280x720 browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1280x720 library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1280x720 download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1280x720 mic mixer",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1280x720 mic sounds",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1280x720 mic devices",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1280x720 mic keys",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1280x720 mic remote",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1280x720 mic setup",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1280x720 mic live performance",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1280x720 setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1024x768 home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1024x768 player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1024x768 browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1024x768 library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1024x768 download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1024x768 mic mixer",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1024x768 mic sounds",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1024x768 mic devices",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1024x768 mic keys",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1024x768 mic remote",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1024x768 mic setup",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1024x768 mic live performance",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "1024x768 setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "800x600 home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        800,
+        600
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "800x600 player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        800,
+        600
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "800x600 browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        800,
+        600
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "800x600 library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        800,
+        600
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "800x600 download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        800,
+        600
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "800x600 mic mixer",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        800,
+        600
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "800x600 mic sounds",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        800,
+        600
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "800x600 mic devices",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        800,
+        600
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "800x600 mic keys",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        800,
+        600
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "800x600 mic remote",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        800,
+        600
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "800x600 mic setup",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        800,
+        600
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "800x600 mic live performance",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        800,
+        600
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "800x600 setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        800,
+        600
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "390x844 home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "390x844 player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "390x844 browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "390x844 library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "390x844 download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "390x844 mic mixer",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "390x844 mic sounds",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "390x844 mic devices",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "390x844 mic keys",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "390x844 mic remote",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "390x844 mic setup",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "390x844 mic live performance",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "390x844 setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "320x740 home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "320x740 player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "320x740 browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "320x740 library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "320x740 download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "320x740 mic mixer",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "320x740 mic sounds",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "320x740 mic devices",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "320x740 mic keys",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "320x740 mic remote",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "320x740 mic setup",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "320x740 mic live performance",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "320x740 setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber perf home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber perf player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber perf browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber perf library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber perf download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber perf mic",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber perf setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber lowpower home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber lowpower player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber lowpower browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber lowpower library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber lowpower download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber lowpower mic",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber lowpower setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber noglow home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber noglow player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber noglow browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber noglow library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber noglow download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber noglow mic",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette amber noglow setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet perf home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet perf player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet perf browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet perf library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet perf download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet perf mic",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet perf setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet lowpower home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet lowpower player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet lowpower browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet lowpower library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet lowpower download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet lowpower mic",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet lowpower setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet noglow home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet noglow player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet noglow browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet noglow library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet noglow download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet noglow mic",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette violet noglow setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album perf home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album perf player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album perf browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album perf library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album perf download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album perf mic",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album perf setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album lowpower home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album lowpower player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album lowpower browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album lowpower library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album lowpower download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album lowpower mic",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album lowpower setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album noglow home",
+      "textOverlaps": [],
+      "tab": "tab-home",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album noglow player",
+      "textOverlaps": [],
+      "tab": "tab-player",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album noglow browse",
+      "textOverlaps": [],
+      "tab": "tab-browse",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album noglow library",
+      "textOverlaps": [],
+      "tab": "tab-library",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album noglow download",
+      "textOverlaps": [],
+      "tab": "tab-download",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album noglow mic",
+      "textOverlaps": [],
+      "tab": "tab-mic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    },
+    {
+      "label": "palette album noglow setup",
+      "textOverlaps": [],
+      "tab": "tab-setup",
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "viewOverflow": false,
+      "leaks": [],
+      "overlaps": []
+    }
+  ]
+}
